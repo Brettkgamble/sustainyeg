@@ -39,15 +39,15 @@ export function HeroBlock({
           </div>
 
           {image && (
-            <div className="h-96 w-full">
+            <div className="h-96 w-full flex items-center justify-center">
               <SanityImage
                 asset={image}
                 loading="eager"
-                width={800}
-                height={800}
+                width={900}
+                height={900}
                 priority
-                quality={80}
-                className="max-h-96 w-full rounded-3xl object-cover"
+                quality={100}
+                className="max-h-96 w-1/3 rounded-3xl  object-cover"
               />
             </div>
           )}
