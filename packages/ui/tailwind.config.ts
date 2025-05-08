@@ -83,9 +83,7 @@ const config = {
       typography: () => ({
         sustainyeg: {
           css: {
-            /* '--tw-prose-body': 'var(--color-pink-800)', */
             '--tw-prose-body': '#1A1A1A',
-            /* '--tw-prose-headings': 'var(--color-pink-900)', */
             '--tw-prose-headings': '#1A1A1A',
             '--tw-prose-lead': 'var(--color-pink-700)',
             '--tw-prose-links': 'var(--color-pink-900)',
@@ -101,9 +99,7 @@ const config = {
             '--tw-prose-pre-bg': 'var(--color-pink-900)',
             '--tw-prose-th-borders': 'var(--color-pink-300)',
             '--tw-prose-td-borders': 'var(--color-pink-200)',
-            /* '--tw-prose-invert-body': 'var(--color-pink-200)', */
-            '--tw-prose-invert-body': '#1A1A1A',
-            /* '--tw-prose-invert-headings': 'var(--color-white)', */
+            '--tw-prose-invert-body': '#F2EDD9',
             '--tw-prose-invert-headings': '#1A1A1A',
             '--tw-prose-invert-lead': 'var(--color-pink-300)',
             '--tw-prose-invert-links': 'var(--color-white)',
