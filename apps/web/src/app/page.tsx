@@ -19,7 +19,7 @@ export default async function Page() {
   const { data: homePageData } = await fetchHomePageData();
 
   if (!homePageData) {
-    return <div>No home page data</div>;
+    return <div>No home page data!</div>;
   }
 
   const { _id, _type, pageBuilder } = homePageData ?? {};
